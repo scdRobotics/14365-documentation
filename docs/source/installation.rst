@@ -6,29 +6,22 @@ Installation
 Android Studio
 --------------
 
-To use Lumache, first install it using pip:
+.. _githubdesktop:
 
-.. code-block:: console
+Github Desktop
+---------------
 
-   (.venv) $ pip install lumache
+.. _ftcsdk:
 
-Creating recipes
-----------------
+FTC SDK
+-------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+.. _outsidelibraries:
 
-.. autofunction:: lumache.get_random_ingredients
+Outside Libraries
+-----------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+.. _revhardwareclient:
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+REV Hardware Client
+-------------------
