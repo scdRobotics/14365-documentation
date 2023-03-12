@@ -1,10 +1,10 @@
-Usage
-=====
-
-.. _installation:
-
 Installation
-------------
+============
+
+.. _androidstudio:
+
+Android Studio
+--------------
 
 To use Lumache, first install it using pip:
 
