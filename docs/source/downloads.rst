@@ -31,10 +31,8 @@ Outside Libraries
 -----------------
 We utilize several outside libraries which build on the capabilities of the base SDK. Currently, we utilize the following libraries, each of which has a setup guide on the listed link:
 
-- `EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`_ for greatly enhanced webcam functionality and customizability.
-- 
+- `EasyOpenCV <https://github.com/OpenFTC/EasyOpenCV>`_ for greatly enhanced webcam functionality and customizability. 
 - `EOCV April Tag Plugin <https://github.com/OpenFTC/EOCV-AprilTag-Plugin>`_ to allow detection of `AprilTags <https://april.eecs.umich.edu/software/apriltag>`_.
-- 
 - `Roadrunner <https://github.com/acmerobotics/road-runner>`_ for vastly improved control of drivetrain movements. I would stay away from the 1.0 beta release and stick with whatever the most current 0.x.x version is, as these are more widely used and tested as stable (with the added bonus of not breaking our current functions). I also would reccomend following `this <https://learnroadrunner.com/installing.html#method-2-installing-rr-on-your-project>`_ install guide, as it is overall much simpler and more clear.
 
 There are, of course, many additional libraries beyond these that you may find usage in, the primary one being `OpMode Tuner <https://github.com/OpenFTC/FTC-OpMode-Tuner>`_. I have strayed away from this due to build stability concerns and the fact that I prefer the more widely tested FTC Dashboard (a library built within the Roadrunner install which allows changing variables and outputting graphs) interface, even though admittedly, FTC dashboard is slower to make changes with. All this apart from the fact that inputs like these can be handled just as well by the gamepads. However, it is certainly a resource that you are free to explore, just at your own risk.
