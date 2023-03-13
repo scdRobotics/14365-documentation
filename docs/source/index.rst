@@ -15,7 +15,9 @@ Welcome to FTC Team 14365 - Summit Knight's Documentation!
 
    It is designed to pair well with the [**WIP, ADD HYPERLINK WHEN DONE**] "tutorial-exercises" project on the scdRobotics GitHub account for more hands on, involved activities to see the code in action and gain hands-on experiences and concrete reference programs
 
-Check out the :doc:`installation` section for how to begin creating all you need on your own computer to begin programming, with each additional section focused on some aspect of the robot, each containing "Overview", "Examples", and "Implementation" sections.
+Check out the :doc:`downloads` section for all the software you need on your own computer to begin programming, with the :doc:`setup` section describing how to setup a project you can then install onto the robot 
+
+Each additional section will focus on some aspect of the robot's control, each containing "Overview", "Examples", and "Implementation" sections.
 
 .. note::
 
@@ -26,4 +28,5 @@ Contents
 
 .. toctree::
 
-   installation
+   downloads
+   setup
